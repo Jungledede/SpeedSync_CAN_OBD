@@ -55,3 +55,7 @@ markdown_extensions:
   - toc:
       permalink: true
 
+nav:
+  - Home: 'index.md'
+  - Issues: 'issues.md' 
+
