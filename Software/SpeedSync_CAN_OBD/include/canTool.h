@@ -34,6 +34,9 @@ boolean checkDTC();
 #define DATA_B 1
 #define DATA_C 2
 
+void GetSpeeds(int16_t *psEngineRPM, byte *pbVehiculeSpeed);
+void GetOilTemp(byte *pbTemp);
+void GetWaterTemp(byte *pbTemp);
 
 
 #endif

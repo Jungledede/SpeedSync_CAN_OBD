@@ -50,6 +50,8 @@ mcp2518fd CAN(SPI_CS_PIN); // Set CS pin
 mcp2515_can CAN(SPI_CS_PIN); // Set CS pin
 #endif
 
+#define SIZEOF_BYTE 1
+#define SIZEOF_SHORT 2
 
 unsigned char PID_INPUT;
 unsigned char getPid;
@@ -59,5 +61,10 @@ bool fTempWaterAvailable;
 bool fTempOilAvailable;
 bool fSpeedEngineAvailable;
 bool fSpeedVehileAvailable;
+
+static byte tryCount;
+
+int16_t engineRPM;
+byte vehiculeSpeed;
 
 #endif
