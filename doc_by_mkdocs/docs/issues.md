@@ -17,7 +17,7 @@ typedef enum {
 } GPIO_TYPE;
 ```
 
-and mcp2518fd_can.h, line 669:
+and mcp2518fd_can_dfs.h, line 669:
 
 ```cpp
 //! GPIO Pin Directions

@@ -52,7 +52,8 @@ void loop()
   if (fInitOK)
   {
   // put your main code here, to run repeatedly:
-
+  vehiculeSpeed = 0;
+  engineRPM = 0;
   //read ice rpm and vehicule speed
   GetSpeeds(&engineRPM, &vehiculeSpeed);
 
